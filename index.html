@@ -4,6 +4,12 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./reset.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./style.css" />
     <title>Shop page</title>
   </head>
@@ -19,47 +25,62 @@
         </ul>
       </nav>
     </header>
-    <section>
+    <section class="section1">
       <img src="./images/Group 78.svg" alt="blur pic" />
     </section>
     <section class="products">
-      <h1>Our Products</h1>
+      <h2>Our Products</h2>
       <ul class="products-div">
         <li class="product-div">
           <img src="./images/image 1.svg" alt="Syltherine" />
-          <h4>Syltherine</h4>
-          <p>Stylish cafe chair</p>
+          <div>
+            <h4>Syltherine</h4>
+            <p>Stylish cafe chair</p>
+          </div>
         </li>
         <li class="product-div">
           <img src="./images/image 2.svg" alt="Leviosa" />
-          <h4>Leviosa</h4>
-          <p>Stylish cafe chair</p>
+          <div>
+            <h4>Leviosa</h4>
+            <p>Stylish cafe chair</p>
+          </div>
         </li>
         <li class="product-div">
           <img src="./images/image 3.svg" alt="Lolito" />
-          <h4>Lolito</h4>
-          <p>Luxury big sofa</p>
+          <div>
+            <h4>Lolito</h4>
+            <p>Luxury big sofa</p>
+          </div>
         </li>
         <li class="product-div">
           <img src="./images/image 4.svg" alt="Respira" />
-          <h4>Respira</h4>
-          <p>Outdoor bar table and stool</p>
+          <div>
+            <h4>Respira</h4>
+            <p>Outdoor bar table and stool</p>
+          </div>
         </li>
       </ul>
     </section>
     <section class="range">
+      <div>
+        <h2>Browse The Range</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      </div>
       <ul class="types-rooms">
         <li class="room">
           <img src="./images/Mask.svg" alt="room pic" />
+          <h3>Dining</h3>
         </li>
         <li class="room">
           <img src="./images/Mask Group.svg" alt="room pic" />
+          <h3>Living</h3>
         </li>
         <li class="room">
           <img
             src="./images/Image-living room.svg"
             alt="room pic./images/Mask.svg"
           />
+          <h3>Bedroom</h3>
         </li>
       </ul>
     </section>
@@ -87,25 +108,38 @@
           </p>
         </div>
       </div>
-      <div>
+      <div class="sofa-div">
         <img src="./images/Group 106.svg" alt="sofa pic" />
         <img src="./images/Group 107.svg" alt="sofa pic" />
       </div>
     </section>
     <section class="details">
-      <h3>High Quality</h3>
-      <span>crafted from top materials</span>
-      <h3>Warranty Protection</h3>
-      <span>Over 2 years</span>
-      <h3>Free Shipping</h3>
-      <span>Order over 150 $</span>
-      <h3>24 / 7 Support</h3>
-      <span>Dedicated support</span>
+      <div>
+        <h3>High Quality</h3>
+        <span>crafted from top materials</span>
+      </div>
+      <div>
+        <h3>Warranty Protection</h3>
+        <span>Over 2 years</span>
+      </div>
+
+      <div>
+        <h3>Free Shipping</h3>
+        <span>Order over 150 $</span>
+      </div>
+      <div>
+        <h3>24 / 7 Support</h3>
+        <span>Dedicated support</span>
+      </div>
     </section>
     <footer>
       <div>
-        <h4>Funiro.</h4>
-        <p>400 University Drive Suite 200 Coral Gables, FL 33134 USA</p>
+        <h4 class="footer-logo">Funiro.</h4>
+        <p>
+          400 University Drive Suite 200 Coral <br />
+          Gables,<br />
+          FL 33134 USA
+        </p>
       </div>
       <div>
         <h4>Links</h4>
@@ -120,7 +154,7 @@
       </div>
       <div>
         <h4>Help</h4>
-        <ul>
+        <ul class="other-details">
           <a href=""><li>Payment Options</li></a>
           <a href=""><li>Returns</li></a>
           <a href=""><li>Privacy Policies</li></a>
